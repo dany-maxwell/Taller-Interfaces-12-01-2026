@@ -1,3 +1,5 @@
+//Taller Daniel Orozco 12-enero-2025
+
 import Characters from "../components/characters/Characters"
 import Footer from "../components/footer/Footer"
 import Header from "../components/header/header"

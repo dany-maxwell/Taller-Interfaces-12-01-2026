@@ -1,3 +1,5 @@
+//Taller Daniel Orozco 12-enero-2025
+
 import { Link } from 'react-router'
 import Header from '../components/header/header'
 import Footer from '../components/footer/Footer'

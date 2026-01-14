@@ -15,7 +15,7 @@ const Header = () => {
         <header className="header">
             <nav className="header__container">
                 <div className="header__logo">
-                    <h1>ASO<span className="header__site">ESFOT</span></h1>
+                    <h1>ASO<span className="header__site">ESFOT</span> Daniel Orozco</h1>
                 </div>
 
                 <div className={`header__barra ${menuActive ? "active" : ""}`}>
