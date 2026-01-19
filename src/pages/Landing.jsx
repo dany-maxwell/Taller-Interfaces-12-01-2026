@@ -1,3 +1,5 @@
+//Taller Daniel Orozco 12-enero-2025
+
 import Header from "../components/header/header"
 import Careers from "../components/careers/Careers"
 import Events from "../components/events/Events"
