@@ -1,0 +1,54 @@
+.private-header {
+    height: 70px;
+    background-color: #1f2933;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: relative;
+    z-index: 10;
+}
+
+.private-header__logo {
+    color: white;
+    font-size: 22px;
+}
+
+.private-header__user {
+    position: relative;
+}
+
+.private-header__icon {
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Menú desplegable */
+.private-header__menu {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.private-header__menu a,
+.private-header__menu button {
+    padding: 12px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    color: #1f2933;
+}
+
+.private-header__menu a:hover,
+.private-header__menu button:hover {
+    background-color: #f3f4f6;
+}

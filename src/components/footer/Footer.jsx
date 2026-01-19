@@ -1,3 +1,4 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 const Footer = () => {
     return (
         <footer data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">

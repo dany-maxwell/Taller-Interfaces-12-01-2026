@@ -13,6 +13,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import NotFound from './pages/NotFound';
 import Services from './pages/Services';
+import Profile from './pages/profile/Profile';
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   )
